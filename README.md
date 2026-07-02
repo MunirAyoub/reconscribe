@@ -2,6 +2,8 @@
 
 **Paste a domain → passive reconnaissance → a Claude-drafted, CWE/CVSS-mapped vulnerability report.**
 
+![ReconScribe — a severity-sorted vulnerability report with CWE/CVSS-mapped findings](docs/screenshot.png)
+
 An AI recon-to-report tool. Read-only recon modules gather facts about a public
 web target (HTTP security headers, certificate-transparency subdomains, WordPress
 version disclosure); Claude then classifies severity, maps CWE/CVSS, and writes the
